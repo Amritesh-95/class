@@ -16,9 +16,10 @@ int main()
                 break;
             }
         }
-        if (flag != 1)
+        if (flag==0 && flag != 1)
         {
             cout << i;
         }
     }
+    return 0;
 }
